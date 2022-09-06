@@ -1,0 +1,33 @@
+
+body {
+    background-color: Lavender;
+    color: MediumPurple;
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+    
+}
+
+h1{
+    color: mediumpurple;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif; ;
+
+}
+
+p{
+    color: RebeccaPurple;
+}
+
+.integrantes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 1px, 1px, 1px, 1px;
+}
+
+.integrantes img{
+    width: 70%;
+}
