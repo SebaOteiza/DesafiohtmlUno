@@ -20,6 +20,7 @@ h2{
 
 p{
     color: RebeccaPurple;
+    
 }
 
 .integrantes{
@@ -30,4 +31,47 @@ p{
 
 .integrantes img{
     width: 70%;
+}
+
+nav{
+    background-color: antiquewhite;
+    
+}
+
+ul{
+  display: flex;  
+justify-content: center;
+  color: aliceblue;
+  list-style-type:none ;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+    padding: 15px;
+}
+li:hover {
+    background-color: black;
+    color: white;
+
+}
+
+h2{
+    color: mediumpurple;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Datos{
+    display:inline-table;
+    align-items:center;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 1px, 1px, 1px, 1px;
+}
+
+.Datos img{
+    width: 50%;
+}
+
+footer{
+    padding-top: 20px;
 }
