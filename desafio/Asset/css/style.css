@@ -63,12 +63,13 @@ h2{
 
 .Datos{
     display:inline-table;
-    align-items:center;
+    align-content: space-between;
     grid-template-columns: repeat(4, 1fr);
     margin: 1px, 1px, 1px, 1px;
 }
 
 .Datos img{
+    justify-content: flex-start;
     width: 50%;
 }
 
