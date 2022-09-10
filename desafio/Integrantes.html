@@ -9,13 +9,19 @@
     <title>Integrantes</title>
     <link href="asset/css/style.css" rel="stylesheet" />
 
+      <!-- CSS only -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" 
+      rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" 
+      crossorigin="anonymous">  
+  
+
 </head>
 
 <body>
     <header>
-        <h1> Grupo Kernel Web</h1>
+        <h1 class="text-succes"> Grupo Kernel Web</h1>
         <nav>
-
+           <div class="d-flex flex-row-reverse">
             <ul>
                 <li><a href="index.html">Inicio</a>
                 </li>
@@ -23,7 +29,7 @@
                 </li>
                 <li><a href="datosfreak.html">Datos Freak</a></li>
             </ul>
-
+            </div>
         </nav>
     </header>
     <section>
@@ -31,35 +37,43 @@
     </section>
     <div class="integrantes">
         <div>
-
-            <img src="asset/img/seba.png" width="15%" alt="icono Sebastián">
+            
+            <img src="asset/img/seba.png" width="15%" class="img-thumbnail" alt="icono Sebastián">
             <h3> Sebastián Oteiza</h3>
-            <p> Valparaíso, Chile</p>
+            <p class="user-select-auto"> Valparaíso, Chile</p>
         </div>
-        <div>
+       
+        <div class="text-warning bg-dark.text-warning">
 
-            <img src="Asset/img/rolando.png" width="15%" alt="icono Rolando">
+            <img src="Asset/img/rolando.png" width="15%" class="img-thumbnail" alt="icono Rolando">
             <h3>Rolando Fernández</h3>
-            <P> Santiago, Chile</P>
+            <P><a href="#" class="pe-none" tabindex="-1" aria-disabled="true"> Santiago, Chile</P>
         </div>
         <div>
 
-            <img src="asset/img/lisbeth.png" width="15%" alt="icono Lisbeth">
+            <img src="asset/img/lisbeth.png" width="15%" class="img-thumbnail" alt="icono Lisbeth">
             <h3>Lisbeth Calcina </h3>
-            <p> Alto Hospicio, Chile</p>
+            <p><a href="#" class="pe-none" tabindex="-1" aria-disabled="true"> Alto Hospicio, Chile</p>
 
         </div>
         <div>
 
-            <img src="asset/img/pato.png" width="15%" alt="icono Patricio">
+            <img src="asset/img/pato.png" width="15%" class="img-thumbnail" alt="icono Patricio">
             <h3>Patricio Yañez</h3>
-            <p>Lautaro, Chile</p>
+            <p class="user-select-auto">Lautaro, Chile</p>
         </div>
+       
     </div>
     <footer>
+        
+        <button type="button" class="border border-danger">
+          
 
         <p> © 2022 Los patos feos incorporated</p>
     </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
 
 </body>
 

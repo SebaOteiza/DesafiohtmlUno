@@ -1,78 +1,79 @@
-
 body {
     background-color: Lavender;
-    color: MediumPurple;
+    color: rgb(3, 0, 8);
     text-align: center;
     font-family: 'Assistant', sans-serif;
-    font-weight: 400;
-    
+    font-weight: 300;
+
 }
 
-h1{
+h1 {
     color: mediumpurple;
     font-family: 'Poppins', sans-serif;
 }
 
-h2{
-    font-family: 'Poppins', sans-serif; ;
+h2 {
+    font-family: 'Poppins', sans-serif;
+    ;
 
 }
 
-p{
+p {
     color: RebeccaPurple;
-    
+
 }
 
-.integrantes{
-    display: grid;
+.integrantes {
+    display: inline-flex;
     grid-template-columns: repeat(4, 1fr);
-    margin: 1px, 1px, 1px, 1px;
+    margin: 10px, 10px, 10px, 10px;
 }
 
-.integrantes img{
+.integrantes img {
     width: 70%;
 }
 
-nav{
+nav {
     background-color: antiquewhite;
-    
+
 }
 
-ul{
-  display: flex;  
-justify-content: center;
-  color: aliceblue;
-  list-style-type:none ;
-  margin: 0;
-  padding: 0;
+ul {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-li{
+li {
     padding: 15px;
 }
+
 li:hover {
     background-color: black;
     color: white;
 
 }
 
-h2{
+h2 {
     color: mediumpurple;
     font-family: 'Poppins', sans-serif;
 }
 
-.Datos{
-    display:inline-table;
+.Datos {
+    display: inline-table;
     align-content: space-between;
     grid-template-columns: repeat(4, 1fr);
     margin: 1px, 1px, 1px, 1px;
 }
 
-.Datos img{
+.Datos img {
     justify-content: flex-start;
     width: 50%;
 }
 
-footer{
+footer {
     padding-top: 20px;
 }
