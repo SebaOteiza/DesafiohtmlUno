@@ -23,39 +23,12 @@ p {
 
 }
 
-.integrantes {
-    display: inline-flex;
-    grid-template-columns: repeat(4, 1fr);
-    margin: 10px, 10px, 10px, 10px;
-}
-
-.integrantes img {
-    width: 70%;
-}
 
 nav {
     background-color: antiquewhite;
 
 }
 
-ul {
-    display: flex;
-    justify-content: center;
-    color: aliceblue;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    padding: 15px;
-}
-
-li:hover {
-    background-color: lav;
-    color: white;
-
-}
 
 h2 {
     color: mediumpurple;
@@ -75,11 +48,11 @@ h2 {
 }
 
 footer {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .carousel-inner{
-    max-height: 460px;
+    max-height: 570px;
 
 }
 
