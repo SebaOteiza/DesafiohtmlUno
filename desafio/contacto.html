@@ -2,134 +2,144 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="kernel" type="image/jpg" href="Asset/img/favicon.jpg">
-    <title>Desafío uno</title>
-    <link href="asset/css/style.css" rel="stylesheet" />
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="kernel" type="image/jpg" href="Asset/img/favicon.jpg">
+	<title>Desafío uno</title>
+	<link href="asset/css/style.css" rel="stylesheet" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=Poppins:wght@1,500&display=swap"
-    rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=Poppins:wght@1,500&display=swap"
+		rel="stylesheet">
 
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
 
-   
+
 
 </head>
 
 <body>
 
-    <header>
- <!--barra de navegacion-->
- <nav class="navbar navbar-expand-lg bg-light">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Kernel</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="equipo.html">Equipo</a>
-                </li>
+	<header>
+		<!--barra de navegacion-->
+		<nav class="navbar navbar-expand-lg bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">Kernel</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="equipo.html">Equipo</a>
+						</li>
 
-                
-                <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">Contacto</a>
-                </li>
-                
-            </ul>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-        </div>
-    </div>
-</nav>
-    </header>
 
-   
-   <!--formulario--> 
-   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+						<li class="nav-item">
+							<a class="nav-link" href="contacto.html">Contacto</a>
+						</li>
 
-<div id="contact" class="contact-area section-padding">
-	<div class="container">										
-		<div class="section-title text-center">
-			<h1>Contáctanos</h1>
-			<p>Somos Kernel Web, déjanos tu mensaje y te contáctaremos a la brevedad</p>
-		</div>					
-		<div class="row">
-			<div class="col-lg-7">	
-				<div class="contact">
-					<form class="form" name="enq" method="post" action="contact.php" onsubmit="return validation();">
-						<div class="row">
-							<div class="form-group col-md-6">
-								<input type="text" name="Nombre" class="form-control" placeholder="Nombre" required="required">
-							</div>
-							<div class="form-group col-md-6">
-								<input type="email" name="email" class="form-control" placeholder="Email" required="required">
-							</div>
-							<div class="form-group col-md-12">
-								<input type="text" name="Asunto" class="form-control" placeholder="Asunto" required="required">
-							</div>
-							<div class="form-group col-md-12">
-								<textarea rows="6" name="Mensaje" class="form-control" placeholder="Escríbenos tu mensaje" required="required"></textarea>
-							</div>
-							<div class="col-md-12 text-center">
-								<button type="submit" value="Send message" name="submit" id="submitButton" class="btn btn-contact-bg" title="Submit Your Message!">Enviar mensaje</button>
-							</div>
-						</div>
+					</ul>
+					<form class="d-flex" role="search">
+						<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-success" type="submit">Search</button>
 					</form>
 				</div>
-			</div><!--- END COL --> 
-			<div class="col-lg-5">
-				<div class="single_address">
-					<i class="fa fa-map-marker"></i>
-					<h4>Dirección</h4>
-					<p>3481 Melrose Place, Beverly Hills</p>
+			</div>
+		</nav>
+	</header>
+
+
+	<!--formulario-->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+	<div id="contact" class="contact-area section-padding">
+		<div class="container">
+			<div class="section-title text-center">
+				<h1>Contáctanos</h1>
+				<p>Somos Kernel Web, déjanos tu mensaje y te contáctaremos a la brevedad</p>
+			</div>
+			<div class="row">
+				<div class="col-lg-7">
+					<div class="contact">
+						<form class="form" name="enq" method="post" action="contact.php"
+							onsubmit="return validation();">
+							<div class="row">
+								<div class="form-group col-md-6">
+									<input type="text" name="Nombre" class="form-control" placeholder="Nombre"
+										required="required">
+								</div>
+								<div class="form-group col-md-6">
+									<input type="email" name="email" class="form-control" placeholder="Email"
+										required="required">
+								</div>
+								<div class="form-group col-md-12">
+									<input type="text" name="Asunto" class="form-control" placeholder="Asunto"
+										required="required">
+								</div>
+								<div class="form-group col-md-12">
+									<textarea rows="6" name="Mensaje" class="form-control"
+										placeholder="Escríbenos tu mensaje" required="required"></textarea>
+								</div>
+								<div class="col-md-12 text-center">
+									<button type="submit" value="Send message" name="submit" id="submitButton"
+										class="btn btn-contact-bg" title="Submit Your Message!">Enviar mensaje</button>
+								</div>
+							</div>
+						</form>
+					</div>
 				</div>
-				<div class="single_address">
-					<i class="fa fa-envelope"></i>
-					<h4>Email</h4>
-					<p>Info@example.com</p>
+				<!--- END COL -->
+
+				<div class="col-lg-5">
+					<div class="single_address">
+						<i class="fa fa-map-marker"></i>
+						<h4>Dirección</h4>
+						<p>3481 Melrose Place, Beverly Hills</p>
+					</div>
+					<div class="single_address">
+						<i class="fa fa-envelope"></i>
+						<h4>Email</h4>
+						<p>Info@example.com</p>
+					</div>
+					<div class="single_address">
+						<i class="fa fa-phone"></i>
+						<h4>Teléfono</h4>
+						<p>(+569) 51 397 7100</p>
+					</div>
+					<div class="single_address">
+						<i class="fa fa-clock-o"></i>
+						<h4>Horario</h4>
+						<p>Lun - Vie: 08.00 - 16.00. <br>Sab: 10.00 - 14.00</p>
+					</div>
 				</div>
-				<div class="single_address">
-					<i class="fa fa-phone"></i>
-					<h4>Teléfono</h4>
-					<p>(+569) 51 397 7100</p>
-				</div>
-				<div class="single_address">
-					<i class="fa fa-clock-o"></i>
-					<h4>Horario</h4>
-					<p>Lun - Vie: 08.00 - 16.00. <br>Sab: 10.00 - 14.00</p>
-				</div>					
-			</div><!--- END COL --> 
-		</div><!--- END ROW -->
-	</div><!--- END CONTAINER -->	
-</div>
+				<!--- END COL -->
+			</div>
+			<!--- END ROW -->
+		</div>
+		<!--- END CONTAINER -->
+	</div>
 
-    
 
-   
-    <footer>
 
-        <p class="text-center"> © 2022 Los patos feos incorporated</p>
-    </footer>
+	<footer>
 
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-        crossorigin="anonymous"></script>
+		<p class="bg-dark text-center text-light p-3"> © 2022 Los patos feos incorporated</p>
+	</footer>
+
+	<!-- JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+		crossorigin="anonymous"></script>
 </body>
 
 </html>
